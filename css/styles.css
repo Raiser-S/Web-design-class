@@ -1,0 +1,395 @@
+
+/* Plant logo */
+
+.logo-img{
+    width: 147px;
+    height: 41px;
+    padding-left: 130px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #161616;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+    color: #161616;
+}
+
+
+/* H3 styles */
+h3{
+    font-style: normal;
+    font-size: 32px;
+    text-align:center;
+    letter-spacing: 2px;
+    /* background-color: aqua; */
+}
+
+/* Navigation Bar */
+.header-top{
+    margin: 0;
+    width: 100%;
+    padding:10px 0;
+    /* background-color: aqua; */
+}
+
+.container1{
+    width: 100%;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    
+    
+}
+
+.nav-bar{
+    padding:0;
+    margin: 0;
+    width: auto;
+    /* background-color: #df6161; */
+}
+
+.nav-bar ul{
+    padding:0;
+    margin: 5px 0;
+}
+
+.nav-option li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 21px;
+    color: #161616;   
+    /* background-color: #80b435; */
+    width: auto;
+
+}
+
+.nav-option a:hover{
+    color: #80b435;
+}
+
+.nav-option li a{
+    text-decoration:none;
+}
+
+
+/* Store Dropdown menu  */
+.store{
+    position: relative;
+}
+
+.store:hover .store-dropdown {
+    display: flex;
+    margin: 0px;
+    padding: 5px 0;
+    transform: translate(-45px,20px);
+    background-color: #f3f0f0;
+}
+
+.store-dropdown{
+    position:absolute;
+    display: none;
+}
+
+.dropdown-header .header {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;  
+    padding: 50px 90px 0 0;
+    /* background-color: beige;  */
+}
+
+
+.dropdown-option li{
+    display:block;
+    margin:5px -20px;
+    padding:15px 5px;
+    width:120px;
+    transform: translateX(15px);
+    font-size: 14px;
+    font-weight: 300;
+    /* background-color: beige; */
+
+}
+
+.material-icons{
+    font-size:30px
+}
+
+/* Feature Productas */
+
+
+.featured-products {
+    width:100%;
+    margin-top: 10px;
+    /* background-color: #80b435; */
+}
+
+.featured-products p {
+    font-size: 48px;
+    text-align: center;
+    width:60%;
+    margin:0 auto;
+    /* background-color: rebeccapurple; */
+}
+
+.feature-container{
+    width:100%;
+}
+
+.item-images{
+    display:flex;
+    margin: 50px auto;
+    overflow-x: scroll;
+    width:70%;
+
+}
+
+.item-images img{
+    width:300px;
+    height:300px;
+}
+
+.item-description p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 5px;
+} 
+
+.product-image:hover{
+    cursor: pointer;
+}
+
+
+/* Product Price Styles */
+.old-price{
+    text-decoration-line:line-through;
+    font-size: 13px;
+
+}
+
+.new-price{
+    letter-spacing: 1px;
+    font-size: 15px;
+
+    color: #80b435;
+}
+
+.item-description p {
+    word-spacing: 5px;
+}
+
+
+/* Our services section */
+.service-container1{
+    margin:0;
+    width: auto;
+    /* background-color: #80b435; */
+}
+
+.service-container2{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    margin: 0 15%;
+    padding: 0;
+    gap: 0 50px;
+
+}
+
+.service-container3{
+    /* background-color: yellowgreen; */
+    margin:0px;
+    padding:20px 0;
+}
+
+.service-container3 img{
+    width:auto;
+    padding: 0;
+    /* transform: translateX(25px); */
+    /* background-color: #696b67; */
+}
+
+.service-container3 .service{
+    font-size: 14px;
+    margin:0;
+    padding-left: 0px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #161616;
+    width: auto;
+}
+
+.service-container3 p{
+    font-size: 12px;
+    margin:0;
+    padding-left: 0px;
+    word-spacing: .5px;
+    text-align: center;
+    color: #979797;
+    width: auto;
+}
+
+
+/* Latest products menu styles */
+.latest-product{
+    text-align: center;
+}
+
+.products-items-options{
+    display: flex;
+    padding:0px 10px;
+    /* background-color: aliceblue; */
+    justify-content: center;
+    transform: translateY(-30px);
+}
+
+.products-items-options li{
+    display:inline;
+    margin: 0 15px;
+    padding: 2px;
+    /* background-color: aquamarine; */
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.products-items-options a:hover{
+    color: #80b435;
+}
+
+
+/* Latest products images styles */
+.latest-products-items{
+    display:flex;
+    justify-content: center;
+    margin: 0 25px 0 110px;
+    padding:0;
+    /* background-color: #80b435; */
+}
+
+.latest-products-items-description{
+    display: block;
+}
+
+.latest-products-items img{
+    width:60%;
+    margin-top: 10px;
+}
+
+.item-name{
+    font-size: 16px;
+    /* line-height: 0px; */
+}
+
+/* All product button sytles */
+.all-products p{
+    text-align:center; 
+    font-size:18px; 
+    padding:60px 0 30px;  
+}
+
+.all-products a{
+    text-decoration: none;
+    padding:15px 40px;
+    border-radius: 30px;
+    background-color: #9bc22f;
+}
+
+.all-products a{
+    color:#ffffff;
+}
+
+.all-products a:hover{
+    background-color: #80b435;
+}
+
+/* Banner image styles */
+.banner-container{
+    position: relative;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+.banner-description{
+    position:absolute;
+    text-align: center;
+    margin: 0;
+    top: 30%;
+    left: 10%;
+    padding: 0;
+    font-size: 200%;
+    width:80%;
+    height: 80%;
+    color:#fff;
+    /* background-color: aquamarine; */
+}
+
+
+/* contact section */
+
+.contact{
+    display: block;
+    margin: 80px 0;
+    /* background-color: #80b435; */
+    text-align: center;
+}
+
+.get-in-touch>span{
+    font-size: 32px;
+    width: 50%;
+    /* background-color: #979797; */
+}
+
+.subscribe{
+    margin-top: 120px;
+
+}
+
+.email{
+    /* width: 25%; */
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    outline: none;    
+    font-size: 21px;
+}
+
+hr{
+    width: 25%;
+}
+
+.subscribe-button{
+    border: 1px solid #BAACAC;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    margin-top: 30px;
+
+}
+
+.subscribe-button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #80b435;
+}

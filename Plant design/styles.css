@@ -1,0 +1,290 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #161616;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+    color: #161616;
+}
+
+
+/* H3 styles */
+h3{
+    font-style: normal;
+    font-size: 32px;
+    text-align:center;
+    letter-spacing: 2px;
+    /* background-color: aqua; */
+}
+
+/* Plant image logo */
+.logo-img{
+    width:127px;
+    height: 41px;
+    /* background-color: aliceblue ; */
+}
+
+
+/* Navigation Bar */
+.header-top{
+    /* background-color: aqua; */
+    margin: 0 0px 15px;
+    padding:20px 0 20px;
+}
+
+.container1{
+    margin: 0 120px;
+    padding: 0 15px;
+    display:flex;
+    /* background-color: blanchedalmond; */
+}
+
+.nav-bar{
+    margin: 0  120px 0 200px;
+    /* background-color: #470d0d; */
+    max-width: 100%;
+}
+
+.nav-bar ul{
+    padding:0;
+    margin: 10px 5px;
+}
+
+.nav-option li{
+    display: inline;
+    margin: 0 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: #161616;
+    /* background-color:blueviolet */
+}
+
+.nav-option a:hover{
+    color: #80b435;
+}
+
+.nav-option li a{
+    text-decoration:none;
+}
+
+
+/* Store Dropdown menu  */
+.store{
+    position: relative;
+}
+
+.store:hover .dropdown {
+    display: flex;
+    margin: 25px -80px;
+    padding: 5px 0;
+    background-color: rgb(192, 190, 186);
+}
+
+.dropdown{
+    position:absolute;
+    display: none;
+}
+
+.dropdown-header a{
+    text-decoration: none;
+    font-size: 16px;
+    text-align: left;  
+    padding: 50px 90px 0 0;
+    /* background-color: beige;  */
+}
+
+.dropdown-header li{
+    display:block;
+    font-size: 14px;
+    margin:5px -20px;
+    padding:15px 5px;
+    width:120px;
+    /* background-color: beige; */
+}
+
+
+/* Horizontal line */
+hr{
+    margin: 15px 0 0 0;
+}
+
+
+/* Feature Productas */
+.featured-products p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    line-height: 0.3;
+}
+
+.item-images{
+    display:flex;
+    margin: 50px 100px;
+    overflow: auto;
+}
+
+.item-images img{
+    width:380px;
+    height:380px;
+}
+
+.item-description p{
+    font-size: 16px;
+    text-align: center;
+} 
+
+
+/* Product Price Styles */
+.old-price{
+    text-decoration-line:line-through;
+}
+
+.new-price{
+    letter-spacing: 1px;
+    color: #80b435;
+}
+
+.item-description p {
+    word-spacing: 5px;
+}
+
+
+/* Our services section */
+.container2{
+    display: flex; 
+    padding-left: 140px;
+    /* background-color: antiquewhite; */
+}
+
+.service-container{
+    background-color: beige;
+    margin:0px;
+    padding: 20px 5px;
+}
+
+.service-container img{
+    width:40px;
+    height:40px;
+    margin:0 5px;
+    padding: 0 90px;
+    /* background-color: #696b67; */
+}
+
+.service-container .service{
+    font-size: 16px;
+    margin:0 50px;
+    padding: 0px 0;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #161616;
+    /* background-color: aquamarine; */
+}
+
+.service-container p{
+    font-size: 14px;
+    margin:0 50px;
+    padding: 5px 0;
+    text-align: center;
+    color: #979797;
+    /* background-color: aquamarine; */
+}
+
+
+/* Latest products menu styles */
+.container3{
+    margin:0;
+    /* background-color: antiquewhite; */
+}
+
+.products-items-options{
+    margin: -10px 155px 20px;
+    padding:0px 10px;
+    /* background-color: aliceblue; */
+}
+
+.products-items-options li{
+    display:inline;
+    margin: 0 15px;
+    padding: 2px;
+    /* background-color: aquamarine; */
+    font-size: 16px;
+
+}
+
+.products-items-options a:hover{
+    color: #80b435;
+}
+
+
+
+/* Latest products images styles */
+.latest-products-items{
+    display:flex;
+    margin: 0 50px;
+}
+
+.latest-products-items img{
+    width:250px;
+    height: 250px;
+}
+
+.item-name{
+    font-size: 22px;
+}
+
+.item-price{
+    font-size: 14px;
+}
+
+
+/* All product button sytles */
+.all-products p{
+    text-align:center; 
+    font-size:18px; 
+    padding:60px 0 30px;  
+}
+
+.all-products a{
+    text-decoration: none;
+    padding:15px 40px;
+    border-radius: 30px;
+    background-color: #80b435;
+}
+
+.all-products a{
+    color:#ffffff;
+}
+
+
+/* Banner image styles */
+.banner-container img{
+    max-width: 100%;
+    height: 590px;
+}
+
+.banner-container{
+    position: relative;
+    z-index: 1;
+}
+
+.banner-description{
+    position:absolute;
+    text-align: center;
+    z-index: 2;
+    margin: 0 250px 350px;
+    top: 350px;
+    font-size: 32px;
+    line-height: 40px;
+    max-width:750px;
+    color:#fff;
+    /* background-color: aquamarine; */
+}
