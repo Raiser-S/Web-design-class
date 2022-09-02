@@ -1,0 +1,159 @@
+/* Plant logo */
+
+.logo .logo-img{
+    width: 147px;
+    height: 41px;
+    padding-top: 5px;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #161616;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+    color: #161616;
+}
+
+/* H3 styles */
+h3{
+    font-style: normal;
+    font-size: 32px;
+    text-align:center;
+    letter-spacing: 2px;
+    /* background-color: aqua; */
+}
+
+/* Navigation Bar */
+.header-top{
+    margin: 0;
+    width: 100%;
+    padding:20px 0;
+    /* background-color: aqua; */
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:0;
+    margin: 0;
+    width: 100%;
+    /* background-color: antiquewhite; */
+
+}
+
+.nav-bar ul{
+    padding:0;
+    margin: 5px 10px;
+    /* background-color: aquamarine ; */
+}
+
+.nav-option li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 21px;
+    color: #161616;   
+    width: auto;
+    font-weight: 400px;
+    /* background-color: #80b435; */
+}
+
+.nav-option a:hover{
+    color: #80b435;
+}
+
+.nav-option li a{
+    text-decoration:none;
+}
+
+.material ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 0 10px;
+    transform: translate(-40px,10px);
+}
+
+/* Store Dropdown menu  */
+.store{
+    position: relative;
+}
+
+.store:hover .store-dropdown {
+    display: flex;
+    margin: 0px;
+    padding: 5px 0;
+    transform: translate(5px,20px);
+    background-color: #f3f0f0;
+}
+
+.store-dropdown{
+    position:absolute;
+    display: none;
+}
+
+.dropdown-header .header {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;  
+    padding: 50px 90px 0 0;
+    /* background-color: beige;  */
+}
+
+
+.dropdown-option li{
+    display:block;
+    margin:5px -20px;
+    padding:15px 5px;
+    width:120px;
+    transform: translateX(15px);
+    font-size: 14px;
+    font-weight: 300;
+    /* background-color: beige; */
+
+}
+
+.material-icons:hover{
+    color: #80b435;
+}
+
+
+.image-banner-container .banner-img{
+    position: relative;
+    width:100%;
+}
+
+.product-title .product{
+    position: absolute;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #ffffff;
+    z-index:1;
+    top: 150px;
+    left:525px;
+ background-color: #80b435;
+}
+
+.production-linkoption ul{
+    position: absolute;
+    z-index:2;
+    display: flex;
+    gap: 0 25px;
+    font-size: 18px;
+    top: 200px;
+    left:525px;
+    color: #ffffff;
+    background-color: #80b435;
+}

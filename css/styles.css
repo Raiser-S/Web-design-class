@@ -1,4 +1,3 @@
-
 /* Plant logo */
 
 .logo-img{
@@ -45,7 +44,7 @@ h3{
     /* background-color: aqua; */
 }
 
-.container1{
+.header-container{
     width: 100%;
     margin:0;
     padding:0;
@@ -278,8 +277,8 @@ h3{
 
 /* Latest products images styles */
 .latest-products-items{
-    display:flex;
-    justify-content: center;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
     margin: 0 25px 0 110px;
     padding:0;
     /* background-color: #80b435; */
@@ -374,7 +373,7 @@ h3{
     font-size: 21px;
 }
 
-hr{
+hr.emailhr{
     width: 25%;
 }
 
@@ -393,3 +392,26 @@ hr{
     color: #fff;
     background-color: #80b435;
 }
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size:50px;
+    text-align: center;
+    margin: 5px 2px;
+  }
+
+  .fa.fa-facebook{
+    padding: 10px 13px;
+  }
+
+  .fa:hover{
+    color: #fff;
+    background-color: #80b435;
+    border-radius: 50px;
+  }
